@@ -85,7 +85,6 @@ $navigation-icon-size: 24px;
 		align-self: center; // This one affects nested submenu indicators.
 		line-height: 0;
 		display: inline-block;
-		vertical-align: middle;
 		font-size: inherit;
 
 		// Affect the button as well.
@@ -104,6 +103,9 @@ $navigation-icon-size: 24px;
 			stroke: currentColor;
 			width: inherit;
 			height: inherit;
+
+			// Position the arrow to balance with the the text.
+			margin-top: 0.075em;
 		}
 	}
 
@@ -214,6 +216,11 @@ $navigation-icon-size: 24px;
 					width: 0.5em;
 					background: transparent;
 				}
+			}
+
+			// Push inwards from right edge of submenu.
+			.wp-block-navigation__submenu-icon {
+				margin-right: 0.25em;
 			}
 
 			// Reset the submenu indicator for horizontal flyouts.
