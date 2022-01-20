@@ -29,7 +29,10 @@
 	"react-native": "src/index",
 	"types": "build-types",
 	"sideEffects": false,
-	"dependencies": {},
+	"dependencies": {
+		"@babel/runtime": "^7.16.0",
+		"@wordpress/data": "file:../data"
+	},
 	"publishConfig": {
 		"access": "public"
 	}
