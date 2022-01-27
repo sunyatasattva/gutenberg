@@ -223,6 +223,11 @@ $navigation-icon-size: 24px;
 				margin-right: 0.25em;
 			}
 
+			// For hover-based menus, this class is duplicated for a button.
+			.wp-block-navigation__submenu-icon .wp-block-navigation__submenu-icon {
+				margin: 0;
+			}
+
 			// Reset the submenu indicator for horizontal flyouts.
 			.wp-block-navigation__submenu-icon svg {
 				transform: rotate(-90deg);
@@ -252,7 +257,8 @@ $navigation-icon-size: 24px;
 	}
 
 	// Show submenus on click.
-	.wp-block-navigation-submenu__toggle[aria-expanded="true"] + .wp-block-navigation__submenu-container {
+	.wp-block-navigation-submenu__toggle[aria-expanded="true"] + .wp-block-navigation__submenu-container, // Without submenu icon showing.
+	.wp-block-navigation-submenu__toggle[aria-expanded="true"] + .wp-block-navigation__submenu-icon + .wp-block-navigation__submenu-container { // With submenu icon showing.
 		visibility: visible;
 		overflow: visible;
 		opacity: 1;
