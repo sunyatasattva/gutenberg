@@ -257,8 +257,7 @@ $navigation-icon-size: 24px;
 	}
 
 	// Show submenus on click.
-	.wp-block-navigation-submenu__toggle[aria-expanded="true"] + .wp-block-navigation__submenu-container, // Without submenu icon showing.
-	.wp-block-navigation-submenu__toggle[aria-expanded="true"] + .wp-block-navigation__submenu-icon + .wp-block-navigation__submenu-container { // With submenu icon showing.
+	.wp-block-navigation-submenu__toggle[aria-expanded="true"] ~ .wp-block-navigation__submenu-container {
 		visibility: visible;
 		overflow: visible;
 		opacity: 1;
