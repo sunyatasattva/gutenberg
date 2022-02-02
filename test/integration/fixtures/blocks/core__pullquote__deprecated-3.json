@@ -14,6 +14,7 @@
 			}
 		},
 		"innerBlocks": [],
-		"originalContent": "<figure class=\"wp-block-pullquote\" style=\"border-color:#cd2653\"><blockquote class=\"has-text-color has-secondary-color\"><p>pullquote</p></blockquote></figure>"
+		"originalContent": "<figure class=\"wp-block-pullquote\" style=\"border-color:#cd2653\"><blockquote class=\"has-text-color has-secondary-color\"><p>pullquote</p></blockquote></figure>",
+		"sourceMarkup": "<!-- wp:pullquote {\"mainColor\":\"accent\",\"textColor\":\"secondary\"} -->\n<figure class=\"wp-block-pullquote\" style=\"border-color:#cd2653\"><blockquote class=\"has-text-color has-secondary-color\"><p>pullquote</p></blockquote></figure>\n<!-- /wp:pullquote -->"
 	}
 ]

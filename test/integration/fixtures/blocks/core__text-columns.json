@@ -16,6 +16,7 @@
 			"width": "center"
 		},
 		"innerBlocks": [],
-		"originalContent": "<div class=\"wp-block-text-columns aligncenter columns-2\">\n    <div class=\"wp-block-column\">\n        <p>One</p>\n    </div>\n    <div class=\"wp-block-column\">\n        <p>Two</p>\n    </div>\n</div>"
+		"originalContent": "<div class=\"wp-block-text-columns aligncenter columns-2\">\n    <div class=\"wp-block-column\">\n        <p>One</p>\n    </div>\n    <div class=\"wp-block-column\">\n        <p>Two</p>\n    </div>\n</div>",
+		"sourceMarkup": "<!-- wp:text-columns {\"width\":\"center\"} -->\n<div class=\"wp-block-text-columns aligncenter columns-2\">\n    <div class=\"wp-block-column\">\n        <p>One</p>\n    </div>\n    <div class=\"wp-block-column\">\n        <p>Two</p>\n    </div>\n</div>\n<!-- /wp:text-columns -->"
 	}
 ]

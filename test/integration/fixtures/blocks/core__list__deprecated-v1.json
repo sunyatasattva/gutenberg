@@ -9,6 +9,7 @@
 			"fontFamily": "cambria-georgia"
 		},
 		"innerBlocks": [],
-		"originalContent": "<ul style=\"font-family:var(--wp--preset--font-family--cambria-georgia)\"><li>one</li><li>two</li><li>three</li></ul>"
+		"originalContent": "<ul style=\"font-family:var(--wp--preset--font-family--cambria-georgia)\"><li>one</li><li>two</li><li>three</li></ul>",
+		"sourceMarkup": "<!-- wp:list {\"style\":{\"typography\":{\"fontFamily\":\"var:preset|font-family|cambria-georgia\"}}} -->\n<ul style=\"font-family:var(--wp--preset--font-family--cambria-georgia)\"><li>one</li><li>two</li><li>three</li></ul>\n<!-- /wp:list -->"
 	}
 ]

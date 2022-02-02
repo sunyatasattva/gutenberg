@@ -8,6 +8,7 @@
 			"scale": "cover"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:post-featured-image /-->"
 	}
 ]

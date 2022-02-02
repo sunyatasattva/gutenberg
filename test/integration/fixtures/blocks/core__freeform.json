@@ -7,6 +7,7 @@
 			"content": "<p>Testing freeform block with some</p>\n<div class=\"wp-some-class\">\n\tHTML <span style=\"color: red;\">content</span>\n</div>"
 		},
 		"innerBlocks": [],
-		"originalContent": "<p>Testing freeform block with some</p>\n<div class=\"wp-some-class\">\n\tHTML <span style=\"color: red;\">content</span>\n</div>"
+		"originalContent": "<p>Testing freeform block with some</p>\n<div class=\"wp-some-class\">\n\tHTML <span style=\"color: red;\">content</span>\n</div>",
+		"sourceMarkup": "<!-- wp:freeform -->\nTesting freeform block with some\n<div class=\"wp-some-class\">\n\tHTML <span style=\"color: red;\">content</span>\n</div>\n<!-- /wp:freeform -->"
 	}
 ]

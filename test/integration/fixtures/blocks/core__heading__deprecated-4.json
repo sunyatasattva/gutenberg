@@ -10,6 +10,7 @@
 			"textAlign": "center"
 		},
 		"innerBlocks": [],
-		"originalContent": "<h2 class=\"has-accent-color has-text-color has-text-align-center\">Text</h2>"
+		"originalContent": "<h2 class=\"has-accent-color has-text-color has-text-align-center\">Text</h2>",
+		"sourceMarkup": "<!-- wp:heading {\"textColor\":\"accent\",\"align\":\"center\"} -->\n<h2 class=\"has-accent-color has-text-color has-text-align-center\">Text</h2>\n<!-- /wp:heading -->"
 	}
 ]

@@ -8,6 +8,7 @@
 			"service": "vimeo"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-vimeo {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

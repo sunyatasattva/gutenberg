@@ -7,6 +7,7 @@
 			"label": "Home"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:home-link {\"label\":\"Home\"} /-->"
 	}
 ]

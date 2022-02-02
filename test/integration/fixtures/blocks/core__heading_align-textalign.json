@@ -10,6 +10,7 @@
 			"align": "wide"
 		},
 		"innerBlocks": [],
-		"originalContent": "<h2 class=\"alignwide has-text-align-center\">Text</h2>"
+		"originalContent": "<h2 class=\"alignwide has-text-align-center\">Text</h2>",
+		"sourceMarkup": "<!-- wp:heading {\"textAlign\":\"center\",\"align\":\"wide\"} -->\n<h2 class=\"alignwide has-text-align-center\">Text</h2>\n<!-- /wp:heading -->"
 	}
 ]

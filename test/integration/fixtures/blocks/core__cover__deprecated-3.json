@@ -25,6 +25,7 @@
 				"innerBlocks": []
 			}
 		],
-		"originalContent": "<div class=\"wp-block-cover has-background-dim\" style=\"background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==)\"><p class=\"wp-block-cover-text\"><strong>Cover Block</strong></p></div>"
+		"originalContent": "<div class=\"wp-block-cover has-background-dim\" style=\"background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==)\"><p class=\"wp-block-cover-text\"><strong>Cover Block</strong></p></div>",
+		"sourceMarkup": "<!-- wp:cover {\"url\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\",\"id\":35} -->\n<div class=\"wp-block-cover has-background-dim\" style=\"background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==)\"><p class=\"wp-block-cover-text\"><strong>Cover Block</strong></p></div>\n<!-- /wp:cover -->"
 	}
 ]

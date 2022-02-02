@@ -9,6 +9,7 @@
 			"linkLabel": false
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:post-navigation-link {\"type\":\"next\"} /-->"
 	}
 ]

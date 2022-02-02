@@ -7,6 +7,7 @@
 			"slug": "core/text-two-columns"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:pattern {\"slug\":\"core/text-two-columns\"} /-->"
 	}
 ]

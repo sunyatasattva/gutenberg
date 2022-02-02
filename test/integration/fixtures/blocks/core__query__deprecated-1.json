@@ -22,6 +22,7 @@
 			}
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:query /-->"
 	}
 ]

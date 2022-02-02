@@ -8,6 +8,7 @@
 			"service": "foursquare"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-foursquare {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

@@ -7,6 +7,7 @@
 			"area": "secondary"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:navigation-area {\"area\":\"secondary\"} /-->"
 	}
 ]

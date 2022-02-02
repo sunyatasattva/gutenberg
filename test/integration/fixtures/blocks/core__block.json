@@ -7,6 +7,7 @@
 			"ref": 123
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:block {\"ref\":123} /-->"
 	}
 ]

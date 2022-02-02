@@ -8,6 +8,7 @@
 			"citation": "...with a caption"
 		},
 		"innerBlocks": [],
-		"originalContent": "<blockquote class=\"wp-block-quote blocks-quote-style-1\">\n\t<p>Testing deprecated quote block...</p>\n\t<footer>...with a caption</footer>\n</blockquote>"
+		"originalContent": "<blockquote class=\"wp-block-quote blocks-quote-style-1\">\n\t<p>Testing deprecated quote block...</p>\n\t<footer>...with a caption</footer>\n</blockquote>",
+		"sourceMarkup": "<!-- wp:quote -->\n<blockquote class=\"wp-block-quote blocks-quote-style-1\">\n\t<p>Testing deprecated quote block...</p>\n\t<footer>...with a caption</footer>\n</blockquote>\n<!-- /wp:quote -->"
 	}
 ]

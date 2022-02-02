@@ -13,6 +13,7 @@
 			}
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:comments-pagination-previous {\"style\":{\"typography\":{\"textTransform\":\"uppercase\"}},\"backgroundColor\":\"foreground\",\"fontSize\":\"medium\"} /-->"
 	}
 ]

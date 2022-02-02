@@ -11,6 +11,7 @@
 			"linkDestination": "attachment"
 		},
 		"innerBlocks": [],
-		"originalContent": "<figure class=\"wp-block-image\"><a href=\"http://localhost:8888/?attachment_id=7\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" /></a></figure>"
+		"originalContent": "<figure class=\"wp-block-image\"><a href=\"http://localhost:8888/?attachment_id=7\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" /></a></figure>",
+		"sourceMarkup": "<!-- wp:image {\"linkDestination\":\"attachment\"} -->\n<figure class=\"wp-block-image\"><a href=\"http://localhost:8888/?attachment_id=7\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" /></a></figure>\n<!-- /wp:image -->"
 	}
 ]

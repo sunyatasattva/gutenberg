@@ -8,6 +8,7 @@
 			"citation": "...with a caption"
 		},
 		"innerBlocks": [],
-		"originalContent": "<figure class=\"wp-block-pullquote\">\n    <blockquote>\n    <p>Testing pullquote block...</p><cite>...with a caption</cite>\n    </blockquote>\n</figure>"
+		"originalContent": "<figure class=\"wp-block-pullquote\">\n    <blockquote>\n    <p>Testing pullquote block...</p><cite>...with a caption</cite>\n    </blockquote>\n</figure>",
+		"sourceMarkup": "<!-- wp:pullquote -->\n<figure class=\"wp-block-pullquote\">\n    <blockquote>\n    <p>Testing pullquote block...</p><cite>...with a caption</cite>\n    </blockquote>\n</figure>\n<!-- /wp:pullquote -->"
 	}
 ]

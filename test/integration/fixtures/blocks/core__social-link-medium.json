@@ -8,6 +8,7 @@
 			"service": "medium"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-medium {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

@@ -8,6 +8,7 @@
 			"theme": "twentytwenty"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:template-part {\"slug\":\"header\",\"theme\":\"twentytwenty\"} /-->"
 	}
 ]

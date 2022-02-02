@@ -5,6 +5,7 @@
 		"isValid": true,
 		"attributes": {},
 		"innerBlocks": [],
-		"originalContent": "<div class=\"wp-block-query-pagination\"></div>"
+		"originalContent": "<div class=\"wp-block-query-pagination\"></div>",
+		"sourceMarkup": "<!-- wp:query-pagination -->\n<div class=\"wp-block-query-pagination\"></div>\n<!-- /wp:query-pagination -->"
 	}
 ]

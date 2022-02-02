@@ -25,7 +25,8 @@
 							"height": 96
 						},
 						"innerBlocks": [],
-						"originalContent": ""
+						"originalContent": "",
+						"sourceMarkup": "<!-- wp:comment-author-avatar /-->"
 					},
 					{
 						"clientId": "_clientId_1",
@@ -36,7 +37,8 @@
 							"linkTarget": "_self"
 						},
 						"innerBlocks": [],
-						"originalContent": ""
+						"originalContent": "",
+						"sourceMarkup": "<!-- wp:comment-author-name /-->"
 					},
 					{
 						"clientId": "_clientId_2",
@@ -46,7 +48,8 @@
 							"isLink": false
 						},
 						"innerBlocks": [],
-						"originalContent": ""
+						"originalContent": "",
+						"sourceMarkup": "<!-- wp:comment-date /-->"
 					},
 					{
 						"clientId": "_clientId_3",
@@ -54,7 +57,8 @@
 						"isValid": true,
 						"attributes": {},
 						"innerBlocks": [],
-						"originalContent": ""
+						"originalContent": "",
+						"sourceMarkup": "<!-- wp:comment-content /-->"
 					},
 					{
 						"clientId": "_clientId_4",
@@ -62,7 +66,8 @@
 						"isValid": true,
 						"attributes": {},
 						"innerBlocks": [],
-						"originalContent": ""
+						"originalContent": "",
+						"sourceMarkup": "<!-- wp:comment-reply-link /-->"
 					},
 					{
 						"clientId": "_clientId_5",
@@ -72,12 +77,15 @@
 							"linkTarget": "_self"
 						},
 						"innerBlocks": [],
-						"originalContent": ""
+						"originalContent": "",
+						"sourceMarkup": "<!-- wp:comment-edit-link /-->"
 					}
 				],
-				"originalContent": ""
+				"originalContent": "",
+				"sourceMarkup": "<!-- wp:comment-template -->\n<!-- wp:comment-author-avatar /-->\n    \n    \n<!-- wp:comment-author-name /-->\n    \n    \n<!-- wp:comment-date /-->\n    \n    \n<!-- wp:comment-content /-->\n    \n    \n<!-- wp:comment-reply-link /-->\n    \n    \n<!-- wp:comment-edit-link /-->\n<!-- /wp:comment-template -->"
 			}
 		],
-		"originalContent": "<div class=\"wp-block-comments-query-loop\"></div>"
+		"originalContent": "<div class=\"wp-block-comments-query-loop\"></div>",
+		"sourceMarkup": "<!-- wp:comments-query-loop {\"perPage\":2,\"order\":\"desc\"} -->\n<div class=\"wp-block-comments-query-loop\">\n<!-- wp:comment-template -->\n<!-- wp:comment-author-avatar /-->\n    \n    \n<!-- wp:comment-author-name /-->\n    \n    \n<!-- wp:comment-date /-->\n    \n    \n<!-- wp:comment-content /-->\n    \n    \n<!-- wp:comment-reply-link /-->\n    \n    \n<!-- wp:comment-edit-link /-->\n<!-- /wp:comment-template -->\n</div>\n<!-- /wp:comments-query-loop -->"
 	}
 ]

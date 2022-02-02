@@ -8,6 +8,7 @@
 			"service": "vk"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-vk {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

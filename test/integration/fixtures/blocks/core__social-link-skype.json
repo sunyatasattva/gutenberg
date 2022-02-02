@@ -8,6 +8,7 @@
 			"service": "skype"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-skype {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

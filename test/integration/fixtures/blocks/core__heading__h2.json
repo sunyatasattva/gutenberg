@@ -8,6 +8,7 @@
 			"level": 2
 		},
 		"innerBlocks": [],
-		"originalContent": "<h2>A picture is worth a thousand words, or so the saying goes</h2>"
+		"originalContent": "<h2>A picture is worth a thousand words, or so the saying goes</h2>",
+		"sourceMarkup": "<!-- wp:heading -->\n<h2>A picture is worth a thousand words, or so the saying goes</h2>\n<!-- /wp:heading -->"
 	}
 ]

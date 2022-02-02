@@ -8,6 +8,7 @@
 			"service": "instagram"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-instagram {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

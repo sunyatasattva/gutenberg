@@ -12,6 +12,7 @@
 			"height": 100
 		},
 		"innerBlocks": [],
-		"originalContent": "<figure class=\"wp-block-image alignleft\">\n\t<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" width=\"100\" height=\"100\" />\n</figure>"
+		"originalContent": "<figure class=\"wp-block-image alignleft\">\n\t<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" width=\"100\" height=\"100\" />\n</figure>",
+		"sourceMarkup": "<!-- wp:image {\"align\":\"left\",\"height\":100,\"width\":100} -->\n<figure class=\"wp-block-image alignleft\">\n\t<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" width=\"100\" height=\"100\" />\n</figure>\n<!-- /wp:image -->"
 	}
 ]

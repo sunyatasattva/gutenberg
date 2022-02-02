@@ -19,7 +19,8 @@
 					"text": "My button 1"
 				},
 				"innerBlocks": [],
-				"originalContent": "<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">My button 1</a></div>"
+				"originalContent": "<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">My button 1</a></div>",
+				"sourceMarkup": "<!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">My button 1</a></div>\n<!-- /wp:button -->"
 			},
 			{
 				"clientId": "_clientId_1",
@@ -29,9 +30,11 @@
 					"text": "My button 2"
 				},
 				"innerBlocks": [],
-				"originalContent": "<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">My button 2</a></div>"
+				"originalContent": "<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">My button 2</a></div>",
+				"sourceMarkup": "<!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">My button 2</a></div>\n<!-- /wp:button -->"
 			}
 		],
-		"originalContent": "<div class=\"wp-block-buttons alignwide\">\n\t\n\n\t\n</div>"
+		"originalContent": "<div class=\"wp-block-buttons alignwide\">\n\t\n\n\t\n</div>",
+		"sourceMarkup": "<!-- wp:buttons {\"align\":\"wide\",\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons alignwide\">\n\t\n<!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">My button 1</a></div>\n<!-- /wp:button -->\n\t\n<!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">My button 2</a></div>\n<!-- /wp:button -->\n</div>\n<!-- /wp:buttons -->"
 	}
 ]

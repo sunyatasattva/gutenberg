@@ -9,6 +9,7 @@
 			"textColor": "accent"
 		},
 		"innerBlocks": [],
-		"originalContent": "<h2 class=\"has-accent-color has-text-color\">Text</h2>"
+		"originalContent": "<h2 class=\"has-accent-color has-text-color\">Text</h2>",
+		"sourceMarkup": "<!-- wp:heading {\"textColor\":\"accent\"} -->\n<h2 class=\"has-accent-color has-text-color\">Text</h2>\n<!-- /wp:heading -->"
 	}
 ]

@@ -8,6 +8,7 @@
 			"service": "pinterest"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-pinterest {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

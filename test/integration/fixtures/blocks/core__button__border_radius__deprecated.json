@@ -12,7 +12,8 @@
 			}
 		},
 		"innerBlocks": [],
-		"originalContent": "<div class=\"wp-block-button\"><a class=\"wp-block-button__link\" style=\"border-radius:25px\">My button</a></div>"
+		"originalContent": "<div class=\"wp-block-button\"><a class=\"wp-block-button__link\" style=\"border-radius:25px\">My button</a></div>",
+		"sourceMarkup": "<!-- wp:button {\"borderRadius\":25} -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\" style=\"border-radius:25px\">My button</a></div>\n<!-- /wp:button -->"
 	},
 	{
 		"clientId": "_clientId_1",
@@ -22,6 +23,7 @@
 			"content": ""
 		},
 		"innerBlocks": [],
-		"originalContent": "</div>"
+		"originalContent": "</div>",
+		"sourceMarkup": "<!-- wp:null -->\n</div>\n<!-- /wp:null -->"
 	}
 ]

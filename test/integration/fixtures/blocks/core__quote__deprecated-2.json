@@ -9,6 +9,7 @@
 			"align": "right"
 		},
 		"innerBlocks": [],
-		"originalContent": "<blockquote style=\"text-align:right\" class=\"wp-block-quote\">\n\t<p>Testing deprecated quote block...</p>\n\t<cite>...with a caption</cite>\n</blockquote>"
+		"originalContent": "<blockquote style=\"text-align:right\" class=\"wp-block-quote\">\n\t<p>Testing deprecated quote block...</p>\n\t<cite>...with a caption</cite>\n</blockquote>",
+		"sourceMarkup": "<!-- wp:quote {\"align\":\"right\"} -->\n<blockquote style=\"text-align:right\" class=\"wp-block-quote\">\n\t<p>Testing deprecated quote block...</p>\n\t<cite>...with a caption</cite>\n</blockquote>\n<!-- /wp:quote -->"
 	}
 ]

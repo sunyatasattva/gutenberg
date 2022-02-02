@@ -27,9 +27,11 @@
 					"fontSize": "large"
 				},
 				"innerBlocks": [],
-				"originalContent": "<p class=\"has-text-align-center has-large-font-size\"><strong>Cover Block</strong></p>"
+				"originalContent": "<p class=\"has-text-align-center has-large-font-size\"><strong>Cover Block</strong></p>",
+				"sourceMarkup": "<!-- wp:paragraph {\"align\":\"center\",\"placeholder\":\"Write title…\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\"><strong>Cover Block</strong></p>\n<!-- /wp:paragraph -->"
 			}
 		],
-		"originalContent": "<div class=\"wp-block-cover has-background-dim\" style=\"background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==);background-position:7.000000000000001% 7.000000000000001%\">\n\t<div class=\"wp-block-cover__inner-container\">\n\t\t\n\t</div>\n</div>"
+		"originalContent": "<div class=\"wp-block-cover has-background-dim\" style=\"background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==);background-position:7.000000000000001% 7.000000000000001%\">\n\t<div class=\"wp-block-cover__inner-container\">\n\t\t\n\t</div>\n</div>",
+		"sourceMarkup": "<!-- wp:cover {\"url\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\",\"id\":35,\"focalPoint\":{\"x\":\"0.07\",\"y\":\"0.07\"}} -->\n<div class=\"wp-block-cover has-background-dim\" style=\"background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==);background-position:7.000000000000001% 7.000000000000001%\">\n\t<div class=\"wp-block-cover__inner-container\">\n\t\t\n<!-- wp:paragraph {\"align\":\"center\",\"placeholder\":\"Write title…\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\"><strong>Cover Block</strong></p>\n<!-- /wp:paragraph -->\n\t</div>\n</div>\n<!-- /wp:cover -->"
 	}
 ]

@@ -8,6 +8,7 @@
 			"service": "dropbox"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-dropbox {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

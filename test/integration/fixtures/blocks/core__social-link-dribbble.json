@@ -8,6 +8,7 @@
 			"service": "dribbble"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-dribbble {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

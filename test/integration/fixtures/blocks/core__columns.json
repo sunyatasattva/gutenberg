@@ -23,7 +23,8 @@
 							"dropCap": false
 						},
 						"innerBlocks": [],
-						"originalContent": "<p>Column One, Paragraph One</p>"
+						"originalContent": "<p>Column One, Paragraph One</p>",
+						"sourceMarkup": "<!-- wp:paragraph -->\n<p>Column One, Paragraph One</p>\n<!-- /wp:paragraph -->"
 					},
 					{
 						"clientId": "_clientId_1",
@@ -34,10 +35,12 @@
 							"dropCap": false
 						},
 						"innerBlocks": [],
-						"originalContent": "<p>Column One, Paragraph Two</p>"
+						"originalContent": "<p>Column One, Paragraph Two</p>",
+						"sourceMarkup": "<!-- wp:paragraph -->\n<p>Column One, Paragraph Two</p>\n<!-- /wp:paragraph -->"
 					}
 				],
-				"originalContent": "<div class=\"wp-block-column\">\n\t\t\n\t\t\n\t</div>"
+				"originalContent": "<div class=\"wp-block-column\">\n\t\t\n\t\t\n\t</div>",
+				"sourceMarkup": "<!-- wp:column -->\n<div class=\"wp-block-column\">\n\t\t\n<!-- wp:paragraph -->\n<p>Column One, Paragraph One</p>\n<!-- /wp:paragraph -->\n\t\t\n<!-- wp:paragraph -->\n<p>Column One, Paragraph Two</p>\n<!-- /wp:paragraph -->\n\t</div>\n<!-- /wp:column -->"
 			},
 			{
 				"clientId": "_clientId_1",
@@ -54,7 +57,8 @@
 							"dropCap": false
 						},
 						"innerBlocks": [],
-						"originalContent": "<p>Column Two, Paragraph One</p>"
+						"originalContent": "<p>Column Two, Paragraph One</p>",
+						"sourceMarkup": "<!-- wp:paragraph -->\n<p>Column Two, Paragraph One</p>\n<!-- /wp:paragraph -->"
 					},
 					{
 						"clientId": "_clientId_1",
@@ -65,12 +69,15 @@
 							"dropCap": false
 						},
 						"innerBlocks": [],
-						"originalContent": "<p>Column Three, Paragraph One</p>"
+						"originalContent": "<p>Column Three, Paragraph One</p>",
+						"sourceMarkup": "<!-- wp:paragraph -->\n<p>Column Three, Paragraph One</p>\n<!-- /wp:paragraph -->"
 					}
 				],
-				"originalContent": "<div class=\"wp-block-column\">\n\t\t\n\t\t\n\t</div>"
+				"originalContent": "<div class=\"wp-block-column\">\n\t\t\n\t\t\n\t</div>",
+				"sourceMarkup": "<!-- wp:column -->\n<div class=\"wp-block-column\">\n\t\t\n<!-- wp:paragraph -->\n<p>Column Two, Paragraph One</p>\n<!-- /wp:paragraph -->\n\t\t\n<!-- wp:paragraph -->\n<p>Column Three, Paragraph One</p>\n<!-- /wp:paragraph -->\n\t</div>\n<!-- /wp:column -->"
 			}
 		],
-		"originalContent": "<div class=\"wp-block-columns has-background has-secondary-background-color\">\n\t\n\t\n</div>"
+		"originalContent": "<div class=\"wp-block-columns has-background has-secondary-background-color\">\n\t\n\t\n</div>",
+		"sourceMarkup": "<!-- wp:columns {\"backgroundColor\":\"secondary\"} -->\n<div class=\"wp-block-columns has-background has-secondary-background-color\">\n\t\n<!-- wp:column -->\n<div class=\"wp-block-column\">\n\t\t\n<!-- wp:paragraph -->\n<p>Column One, Paragraph One</p>\n<!-- /wp:paragraph -->\n\t\t\n<!-- wp:paragraph -->\n<p>Column One, Paragraph Two</p>\n<!-- /wp:paragraph -->\n\t</div>\n<!-- /wp:column -->\n\t\n<!-- wp:column -->\n<div class=\"wp-block-column\">\n\t\t\n<!-- wp:paragraph -->\n<p>Column Two, Paragraph One</p>\n<!-- /wp:paragraph -->\n\t\t\n<!-- wp:paragraph -->\n<p>Column Three, Paragraph One</p>\n<!-- /wp:paragraph -->\n\t</div>\n<!-- /wp:column -->\n</div>\n<!-- /wp:columns -->"
 	}
 ]

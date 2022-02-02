@@ -8,6 +8,7 @@
 			"service": "chain"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-chain {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

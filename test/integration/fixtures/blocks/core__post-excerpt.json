@@ -7,6 +7,7 @@
 			"showMoreOnNewLine": true
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:post-excerpt /-->"
 	}
 ]

@@ -17,9 +17,11 @@
 					"dropCap": false
 				},
 				"innerBlocks": [],
-				"originalContent": "<p>My paragraph</p>"
+				"originalContent": "<p>My paragraph</p>",
+				"sourceMarkup": "<!-- wp:paragraph -->\n<p>My paragraph</p>\n<!-- /wp:paragraph -->"
 			}
 		],
-		"originalContent": "<div class=\"wp-block-group has-text-color\">\n\t<div class=\"wp-block-group__inner-container\">\n\t\t\n\t</div>\n</div>"
+		"originalContent": "<div class=\"wp-block-group has-text-color\">\n\t<div class=\"wp-block-group__inner-container\">\n\t\t\n\t</div>\n</div>",
+		"sourceMarkup": "<!-- wp:group {\"textColor\":\"accent\"} -->\n<div class=\"wp-block-group has-text-color\">\n\t<div class=\"wp-block-group__inner-container\">\n\t\t\n<!-- wp:paragraph -->\n<p>My paragraph</p>\n<!-- /wp:paragraph -->\n\t</div>\n</div>\n<!-- /wp:group -->"
 	}
 ]

@@ -7,6 +7,7 @@
 			"level": 1
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:query-title /-->"
 	}
 ]

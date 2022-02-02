@@ -8,6 +8,7 @@
 			"service": "behance"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-behance {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

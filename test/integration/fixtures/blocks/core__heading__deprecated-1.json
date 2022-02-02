@@ -9,6 +9,7 @@
 			"textAlign": "right"
 		},
 		"innerBlocks": [],
-		"originalContent": "<h3 style=\"text-align:right\">A picture is worth a thousand words, or so the saying goes</h3>"
+		"originalContent": "<h3 style=\"text-align:right\">A picture is worth a thousand words, or so the saying goes</h3>",
+		"sourceMarkup": "<!-- wp:heading {\"align\":\"right\",\"level\":3} -->\n<h3 style=\"text-align:right\">A picture is worth a thousand words, or so the saying goes</h3>\n<!-- /wp:heading -->"
 	}
 ]

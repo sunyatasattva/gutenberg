@@ -8,6 +8,7 @@
 			"service": "youtube"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-youtube {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

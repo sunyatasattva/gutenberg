@@ -5,6 +5,7 @@
 		"isValid": true,
 		"attributes": {},
 		"innerBlocks": [],
-		"originalContent": "<hr class=\"wp-block-separator\" />"
+		"originalContent": "<hr class=\"wp-block-separator\" />",
+		"sourceMarkup": "<!-- wp:separator -->\n<hr class=\"wp-block-separator\" />\n<!-- /wp:separator -->"
 	}
 ]

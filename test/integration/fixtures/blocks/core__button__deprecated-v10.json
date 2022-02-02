@@ -8,6 +8,7 @@
 			"fontFamily": "cambria-georgia"
 		},
 		"innerBlocks": [],
-		"originalContent": "<div class=\"wp-block-button\" style=\"font-family:var(--wp--preset--font-family--cambria-georgia)\"><a class=\"wp-block-button__link\">My button</a></div>"
+		"originalContent": "<div class=\"wp-block-button\" style=\"font-family:var(--wp--preset--font-family--cambria-georgia)\"><a class=\"wp-block-button__link\">My button</a></div>",
+		"sourceMarkup": "<!-- wp:button {\"style\":{\"typography\":{\"fontFamily\":\"var:preset|font-family|cambria-georgia\"}}} -->\n<div class=\"wp-block-button\" style=\"font-family:var(--wp--preset--font-family--cambria-georgia)\"><a class=\"wp-block-button__link\">My button</a></div>\n<!-- /wp:button -->"
 	}
 ]

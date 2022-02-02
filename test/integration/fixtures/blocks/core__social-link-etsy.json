@@ -8,6 +8,7 @@
 			"service": "etsy"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-etsy {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

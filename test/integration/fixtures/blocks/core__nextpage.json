@@ -5,6 +5,7 @@
 		"isValid": true,
 		"attributes": {},
 		"innerBlocks": [],
-		"originalContent": "<!--nextpage-->"
+		"originalContent": "<!--nextpage-->",
+		"sourceMarkup": "<!-- wp:nextpage -->\n<!--nextpage-->\n<!-- /wp:nextpage -->"
 	}
 ]

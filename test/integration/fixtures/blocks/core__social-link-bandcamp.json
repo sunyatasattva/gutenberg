@@ -8,6 +8,7 @@
 			"service": "bandcamp"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-bandcamp {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

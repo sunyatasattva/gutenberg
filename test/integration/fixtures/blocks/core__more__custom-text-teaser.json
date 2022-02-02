@@ -8,6 +8,7 @@
 			"noTeaser": true
 		},
 		"innerBlocks": [],
-		"originalContent": "<!--more Continue Reading-->\n<!--noteaser-->"
+		"originalContent": "<!--more Continue Reading-->\n<!--noteaser-->",
+		"sourceMarkup": "<!-- wp:more {\"customText\":\"Continue Reading\",\"noTeaser\":true} -->\n<!--more Continue Reading-->\n<!--noteaser-->\n<!-- /wp:more -->"
 	}
 ]

@@ -10,6 +10,7 @@
 			"showOnlyTopLevel": false
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:categories {\"showPostCounts\":false,\"displayAsDropdown\":false,\"showHierarchy\":false} /-->"
 	}
 ]

@@ -19,9 +19,11 @@
 					"url": "https://wordpress.org/"
 				},
 				"innerBlocks": [],
-				"originalContent": ""
+				"originalContent": "",
+				"sourceMarkup": "<!-- wp:navigation-link {\"label\":\"WordPress\",\"url\":\"https://wordpress.org/\"} /-->"
 			}
 		],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:navigation-submenu {\"label\":\"A fine submenu\",\"isTopLevelItem\":true} -->\n<!-- wp:navigation-link {\"label\":\"WordPress\",\"url\":\"https://wordpress.org/\"} /-->\n<!-- /wp:navigation-submenu -->"
 	}
 ]

@@ -5,6 +5,7 @@
 		"isValid": true,
 		"attributes": {},
 		"innerBlocks": [],
-		"originalContent": "<div class=\"wp-block-post-comment\"></div>"
+		"originalContent": "<div class=\"wp-block-post-comment\"></div>",
+		"sourceMarkup": "<!-- wp:post-comment -->\n<div class=\"wp-block-post-comment\"></div>\n<!-- /wp:post-comment -->"
 	}
 ]

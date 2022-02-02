@@ -11,6 +11,7 @@
 			"previewable": true
 		},
 		"innerBlocks": [],
-		"originalContent": "<figure class=\"wp-block-embed\">\n    <div class=\"wp-block-embed__wrapper\">\n        https://example.com/\n    </div>\n    <figcaption>Embedded content from an example URL</figcaption>\n</figure>"
+		"originalContent": "<figure class=\"wp-block-embed\">\n    <div class=\"wp-block-embed__wrapper\">\n        https://example.com/\n    </div>\n    <figcaption>Embedded content from an example URL</figcaption>\n</figure>",
+		"sourceMarkup": "<!-- wp:embed {\"url\":\"https://example.com/\"} -->\n<figure class=\"wp-block-embed\">\n    <div class=\"wp-block-embed__wrapper\">\n        https://example.com/\n    </div>\n    <figcaption>Embedded content from an example URL</figcaption>\n</figure>\n<!-- /wp:embed -->"
 	}
 ]

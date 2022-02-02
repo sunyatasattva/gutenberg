@@ -10,6 +10,7 @@
 			"displayExcerpt": true
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:latest-comments {\"displayAvatar\":true,\"displayExcerpt\":true,\"displayTimestamp\":true} /-->"
 	}
 ]

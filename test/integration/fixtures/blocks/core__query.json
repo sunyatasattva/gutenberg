@@ -24,6 +24,7 @@
 			}
 		},
 		"innerBlocks": [],
-		"originalContent": "<div class=\"wp-block-query\"></div>"
+		"originalContent": "<div class=\"wp-block-query\"></div>",
+		"sourceMarkup": "<!-- wp:query -->\n<div class=\"wp-block-query\"></div>\n<!-- /wp:query -->"
 	}
 ]

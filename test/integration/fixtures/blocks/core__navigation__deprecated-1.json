@@ -23,9 +23,11 @@
 					"url": "https://www.wordpress.org/"
 				},
 				"innerBlocks": [],
-				"originalContent": ""
+				"originalContent": "",
+				"sourceMarkup": "<!-- wp:navigation-link {\"label\":\"WordPress\",\"url\":\"https://www.wordpress.org/\"} /-->"
 			}
 		],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:navigation {\"isResponsive\":true} -->\n<!-- wp:navigation-link {\"label\":\"WordPress\",\"url\":\"https://www.wordpress.org/\"} /-->\n<!-- /wp:navigation -->"
 	}
 ]

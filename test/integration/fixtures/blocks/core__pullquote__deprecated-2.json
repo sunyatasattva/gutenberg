@@ -8,6 +8,7 @@
 			"citation": "...with a caption"
 		},
 		"innerBlocks": [],
-		"originalContent": "<blockquote class=\"wp-block-pullquote\">\n    <p>Testing deprecated pullquote block...</p>\n\t<cite>...with a caption</cite>\n</blockquote>"
+		"originalContent": "<blockquote class=\"wp-block-pullquote\">\n    <p>Testing deprecated pullquote block...</p>\n\t<cite>...with a caption</cite>\n</blockquote>",
+		"sourceMarkup": "<!-- wp:pullquote -->\n<blockquote class=\"wp-block-pullquote\">\n    <p>Testing deprecated pullquote block...</p>\n\t<cite>...with a caption</cite>\n</blockquote>\n<!-- /wp:pullquote -->"
 	}
 ]

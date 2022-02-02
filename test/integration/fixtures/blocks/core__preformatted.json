@@ -7,6 +7,7 @@
 			"content": "Some <em>preformatted</em> text...<br>And more!"
 		},
 		"innerBlocks": [],
-		"originalContent": "<pre class=\"wp-block-preformatted\">Some <em>preformatted</em> text...<br>And more!</pre>"
+		"originalContent": "<pre class=\"wp-block-preformatted\">Some <em>preformatted</em> text...<br>And more!</pre>",
+		"sourceMarkup": "<!-- wp:preformatted -->\n<pre class=\"wp-block-preformatted\">Some <em>preformatted</em> text...<br>And more!</pre>\n<!-- /wp:preformatted -->"
 	}
 ]

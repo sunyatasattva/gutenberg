@@ -8,6 +8,7 @@
 			"service": "deviantart"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-deviantart {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

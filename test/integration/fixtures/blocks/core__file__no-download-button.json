@@ -13,6 +13,7 @@
 			"previewHeight": 600
 		},
 		"innerBlocks": [],
-		"originalContent": "<div class=\"wp-block-file\"><a id=\"wp-block-file--media-_clientId_0\" href=\"http://localhost:8888/wp-content/uploads/2018/05/keycodes.js\">lkjfijwef</a></div>"
+		"originalContent": "<div class=\"wp-block-file\"><a id=\"wp-block-file--media-_clientId_0\" href=\"http://localhost:8888/wp-content/uploads/2018/05/keycodes.js\">lkjfijwef</a></div>",
+		"sourceMarkup": "<!-- wp:file {\"href\":\"http://localhost:8888/wp-content/uploads/2018/05/keycodes.js\",\"showDownloadButton\":false} -->\n<div class=\"wp-block-file\"><a id=\"wp-block-file--media-_clientId_0\" href=\"http://localhost:8888/wp-content/uploads/2018/05/keycodes.js\">lkjfijwef</a></div>\n<!-- /wp:file -->"
 	}
 ]

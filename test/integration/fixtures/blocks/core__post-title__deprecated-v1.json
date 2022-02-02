@@ -11,6 +11,7 @@
 			"fontFamily": "cambria-georgia"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:post-title {\"style\":{\"typography\":{\"fontFamily\":\"var:preset|font-family|cambria-georgia\"}}} /-->"
 	}
 ]

@@ -8,6 +8,7 @@
 			"service": "fivehundredpx"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-fivehundredpx {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

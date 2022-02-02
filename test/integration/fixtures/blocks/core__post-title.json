@@ -10,6 +10,7 @@
 			"linkTarget": "_self"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:post-title /-->"
 	}
 ]

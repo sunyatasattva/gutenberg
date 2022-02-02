@@ -8,6 +8,7 @@
 			"service": "linkedin"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-linkedin {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

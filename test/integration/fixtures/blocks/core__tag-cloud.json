@@ -9,6 +9,7 @@
 			"showTagCounts": false
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:tag-cloud {\"taxonomy\":\"category\"} /-->"
 	}
 ]

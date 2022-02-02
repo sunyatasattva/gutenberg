@@ -16,6 +16,7 @@
 			}
 		},
 		"innerBlocks": [],
-		"originalContent": "<div class=\"wp-block-button\"><a class=\"wp-block-button__link no-border-radius has-text-color has-background\" style=\"background-color:#aa5a20;color:#1b9b6c\">My button</a></div>"
+		"originalContent": "<div class=\"wp-block-button\"><a class=\"wp-block-button__link no-border-radius has-text-color has-background\" style=\"background-color:#aa5a20;color:#1b9b6c\">My button</a></div>",
+		"sourceMarkup": "<!-- wp:button {\"style\":{\"border\":{\"radius\":0},\"color\":{\"text\":\"#1b9b6c\",\"background\":\"#aa5a20\"}}} -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link no-border-radius has-text-color has-background\" style=\"background-color:#aa5a20;color:#1b9b6c\">My button</a></div>\n<!-- /wp:button -->"
 	}
 ]

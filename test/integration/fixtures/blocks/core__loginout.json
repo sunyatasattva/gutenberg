@@ -8,6 +8,7 @@
 			"redirectToCurrent": true
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:loginout /-->"
 	}
 ]

@@ -8,6 +8,7 @@
 			"width": "72px"
 		},
 		"innerBlocks": [],
-		"originalContent": "<div style=\"height:0px;width:72px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>"
+		"originalContent": "<div style=\"height:0px;width:72px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>",
+		"sourceMarkup": "<!-- wp:spacer {\"height\":0,\"width\":72} -->\n<div style=\"height:0px;width:72px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->"
 	}
 ]

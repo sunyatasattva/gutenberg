@@ -8,6 +8,7 @@
 			"service": "pocket"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-pocket {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

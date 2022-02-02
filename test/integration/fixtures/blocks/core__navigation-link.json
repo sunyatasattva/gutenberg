@@ -9,6 +9,7 @@
 			"url": "https://wordpress.org/"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:navigation-link {\"label\":\"WordPress\",\"url\":\"https://wordpress.org/\"} /-->"
 	}
 ]

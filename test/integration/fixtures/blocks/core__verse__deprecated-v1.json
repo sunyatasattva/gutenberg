@@ -8,6 +8,7 @@
 			"textAlign": "left"
 		},
 		"innerBlocks": [],
-		"originalContent": "<pre style=\"text-align:left\" class=\"wp-block-verse\">A <em>verse</em>…<br>And more!</pre>"
+		"originalContent": "<pre style=\"text-align:left\" class=\"wp-block-verse\">A <em>verse</em>…<br>And more!</pre>",
+		"sourceMarkup": "<!-- wp:verse {\"textAlign\":\"left\"} -->\n<pre style=\"text-align:left\" class=\"wp-block-verse\">A <em>verse</em>…<br>And more!</pre>\n<!-- /wp:verse -->"
 	}
 ]

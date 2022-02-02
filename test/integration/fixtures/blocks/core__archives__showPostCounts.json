@@ -8,6 +8,7 @@
 			"showPostCounts": true
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:archives {\"displayAsDropdown\":false,\"showPostCounts\":true} /-->"
 	}
 ]

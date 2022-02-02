@@ -7,6 +7,7 @@
 			"separator": ", "
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:post-terms /-->"
 	}
 ]

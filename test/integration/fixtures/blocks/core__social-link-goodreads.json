@@ -8,6 +8,7 @@
 			"service": "goodreads"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:social-link-goodreads {\"url\":\"https://example.com/\"} /-->"
 	}
 ]

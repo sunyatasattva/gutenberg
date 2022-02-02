@@ -9,6 +9,7 @@
 			"align": "none"
 		},
 		"innerBlocks": [],
-		"originalContent": "<blockquote class=\"wp-block-pullquote alignnone\">\n    <p>Testing deprecated pullquote block...</p>\n\t<footer>...with a caption</footer>\n</blockquote>"
+		"originalContent": "<blockquote class=\"wp-block-pullquote alignnone\">\n    <p>Testing deprecated pullquote block...</p>\n\t<footer>...with a caption</footer>\n</blockquote>",
+		"sourceMarkup": "<!-- wp:pullquote -->\n<blockquote class=\"wp-block-pullquote alignnone\">\n    <p>Testing deprecated pullquote block...</p>\n\t<footer>...with a caption</footer>\n</blockquote>\n<!-- /wp:pullquote -->"
 	}
 ]

@@ -10,6 +10,7 @@
 			"caption": ""
 		},
 		"innerBlocks": [],
-		"originalContent": "<figure class=\"wp-block-image alignleft\" style=\"max-width:50%\">\n\t<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" />\n</figure>"
+		"originalContent": "<figure class=\"wp-block-image alignleft\" style=\"max-width:50%\">\n\t<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" />\n</figure>",
+		"sourceMarkup": "<!-- wp:image {\"align\":\"left\"} -->\n<figure class=\"wp-block-image alignleft\" style=\"max-width:50%\">\n\t<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==\" alt=\"\" />\n</figure>\n<!-- /wp:image -->"
 	}
 ]

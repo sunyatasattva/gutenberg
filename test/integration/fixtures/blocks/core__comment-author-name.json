@@ -8,6 +8,7 @@
 			"linkTarget": "_self"
 		},
 		"innerBlocks": [],
-		"originalContent": ""
+		"originalContent": "",
+		"sourceMarkup": "<!-- wp:comment-author-name /-->"
 	}
 ]

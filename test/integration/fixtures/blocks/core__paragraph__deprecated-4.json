@@ -9,6 +9,7 @@
 			"dropCap": false
 		},
 		"innerBlocks": [],
-		"originalContent": "<p style=\"text-align:right;\">... like this one, which is separate from the above and right aligned.</p>"
+		"originalContent": "<p style=\"text-align:right;\">... like this one, which is separate from the above and right aligned.</p>",
+		"sourceMarkup": "<!-- wp:paragraph {\"align\":\"right\"} -->\n<p style=\"text-align:right;\">... like this one, which is separate from the above and right aligned.</p>\n<!-- /wp:paragraph -->"
 	}
 ]
