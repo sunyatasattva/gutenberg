@@ -9,6 +9,7 @@ import { castArray, reduce } from 'lodash';
 import { __ } from '@wordpress/i18n';
 import { apiFetch } from '@wordpress/data-controls';
 import { store as interfaceStore } from '@wordpress/interface';
+import { store as preferencesStore } from '@wordpress/preferences';
 import { controls, select, subscribe, dispatch } from '@wordpress/data';
 import { speak } from '@wordpress/a11y';
 import { store as noticesStore } from '@wordpress/notices';
@@ -159,7 +160,7 @@ export function removeEditorPanel( panelName ) {
  */
 export function* toggleFeature( feature ) {
 	yield controls.dispatch(
-		interfaceStore.name,
+		preferencesStore.name,
 		'toggleFeature',
 		'core/edit-post',
 		feature
