@@ -1,8 +1,8 @@
 {
 	"name": "@wordpress/preferences",
-	"version": "0.0.1",
+	"version": "1.0.0-prerelease",
 	"private": true,
-	"description": "Utilities for storing WordPress preferences.",
+	"description": "Utilities for managing WordPress preferences.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
