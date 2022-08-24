@@ -85,6 +85,7 @@ export default function PostTemplateEdit( {
 			inherit,
 			taxQuery,
 			parents,
+			customQueryArgs,
 		} = {},
 		queryContext = [ { page: 1 } ],
 		templateSlug,
@@ -157,7 +158,10 @@ export default function PostTemplateEdit( {
 				}
 			}
 			return {
-				posts: getEntityRecords( 'postType', postType, query ),
+				posts: getEntityRecords( 'postType', postType, {
+					...query,
+					...customQueryArgs,
+				} ),
 				blocks: getBlocks( clientId ),
 			};
 		},
@@ -177,6 +181,7 @@ export default function PostTemplateEdit( {
 			templateSlug,
 			taxQuery,
 			parents,
+			customQueryArgs,
 		]
 	);
 	const blockContexts = useMemo(
