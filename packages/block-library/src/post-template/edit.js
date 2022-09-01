@@ -6,7 +6,7 @@ import classnames from 'classnames';
 /**
  * WordPress dependencies
  */
-import { memo, useMemo, useState } from '@wordpress/element';
+import { memo, useMemo, useState, useEffect } from '@wordpress/element';
 import { useSelect } from '@wordpress/data';
 import { __ } from '@wordpress/i18n';
 import {
@@ -18,6 +18,7 @@ import {
 } from '@wordpress/block-editor';
 import { Spinner } from '@wordpress/components';
 import { store as coreStore } from '@wordpress/core-data';
+import { addAction } from '@wordpress/hooks';
 
 const TEMPLATE = [
 	[ 'core/post-title' ],
@@ -95,7 +96,11 @@ export default function PostTemplateEdit( {
 	const [ { page } ] = queryContext;
 	const [ activeBlockContextId, setActiveBlockContextId ] = useState();
 
-	const { posts, blocks } = useSelect(
+	addAction( 'hook_name', 'namespace', function ( post ) {
+		setPosts( post );
+	} );
+
+	const { postsFromApi, blocks } = useSelect(
 		( select ) => {
 			const { getEntityRecords, getTaxonomies } = select( coreStore );
 			const { getBlocks } = select( blockEditorStore );
@@ -161,7 +166,11 @@ export default function PostTemplateEdit( {
 			// block's postType, which is passed through block context.
 			const usedPostType = previewPostType || postType;
 			return {
-				posts: getEntityRecords( 'postType', usedPostType, query ),
+				postsFromApi: getEntityRecords(
+					'postType',
+					usedPostType,
+					query
+				),
 				blocks: getBlocks( clientId ),
 			};
 		},
@@ -184,6 +193,15 @@ export default function PostTemplateEdit( {
 			previewPostType,
 		]
 	);
+
+	const [ posts, setPosts ] = useState( postsFromApi );
+
+	useEffect( () => {
+		if ( posts === null ) {
+			setPosts( postsFromApi );
+		}
+	}, [ postsFromApi ] );
+
 	const blockContexts = useMemo(
 		() =>
 			posts?.map( ( post ) => ( {
@@ -192,6 +210,7 @@ export default function PostTemplateEdit( {
 			} ) ),
 		[ posts ]
 	);
+
 	const hasLayoutFlex = layoutType === 'flex' && columns > 1;
 	const blockProps = useBlockProps( {
 		className: classnames( {
