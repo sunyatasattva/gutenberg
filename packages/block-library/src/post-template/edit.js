@@ -7,6 +7,7 @@ import classnames from 'classnames';
  * WordPress dependencies
  */
 import { memo, useMemo, useState } from '@wordpress/element';
+import { applyFilters } from '@wordpress/hooks';
 import { useSelect } from '@wordpress/data';
 import { __ } from '@wordpress/i18n';
 import {
@@ -159,9 +160,22 @@ export default function PostTemplateEdit( {
 			}
 			// When we preview Query Loop blocks we should prefer the current
 			// block's postType, which is passed through block context.
+
 			const usedPostType = previewPostType || postType;
+
+			const {
+				postType: post,
+				usedPostType: usedPost,
+				query: queryObj,
+			} = applyFilters( 'query.entityRecordsArgs', {
+				postType: 'postType',
+				usedPostType,
+				query,
+				clientId,
+			} );
+
 			return {
-				posts: getEntityRecords( 'postType', usedPostType, query ),
+				posts: getEntityRecords( post, usedPost, queryObj ),
 				blocks: getBlocks( clientId ),
 			};
 		},
