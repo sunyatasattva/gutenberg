@@ -230,14 +230,12 @@ function LayoutPanel( { setAttributes, attributes, name: blockName } ) {
 							/>
 						</>
 					) }
-
 					{ ! inherit && allowSwitching && (
 						<LayoutTypeSwitcher
 							type={ type }
 							onChange={ onChangeType }
 						/>
 					) }
-
 					{ layoutType && layoutType.name !== 'default' && (
 						<layoutType.inspectorControls
 							layout={ usedLayout }
@@ -252,6 +250,7 @@ function LayoutPanel( { setAttributes, attributes, name: blockName } ) {
 							layoutBlockSupport={ layoutBlockSupport }
 						/>
 					) }
+					<InspectorControls.Slot __experimentalGroup="layout" />
 				</PanelBody>
 			</InspectorControls>
 			{ ! inherit && layoutType && (

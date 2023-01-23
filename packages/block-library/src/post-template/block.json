@@ -30,6 +30,9 @@
 				"text": true
 			}
 		},
+		"spacing": {
+			"blockGap": [ "horizontal", "vertical" ]
+		},
 		"typography": {
 			"fontSize": true,
 			"lineHeight": true,

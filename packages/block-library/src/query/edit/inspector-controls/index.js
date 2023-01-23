@@ -107,7 +107,6 @@ export default function QueryInspectorControls( {
 	const showSettingsPanel =
 		showInheritControl ||
 		showPostTypeControl ||
-		showColumnsControl ||
 		showOrderControl ||
 		showStickyControl;
 	const showTaxControl =
@@ -154,30 +153,6 @@ export default function QueryInspectorControls( {
 								) }
 							/>
 						) }
-						{ showColumnsControl && (
-							<>
-								<RangeControl
-									__nextHasNoMarginBottom
-									label={ __( 'Columns' ) }
-									value={ displayLayout.columns }
-									onChange={ ( value ) =>
-										setDisplayLayout( { columns: value } )
-									}
-									min={ 2 }
-									max={ Math.max( 6, displayLayout.columns ) }
-								/>
-								{ displayLayout.columns > 6 && (
-									<Notice
-										status="warning"
-										isDismissible={ false }
-									>
-										{ __(
-											'This column count exceeds the recommended amount and may cause visual breakage.'
-										) }
-									</Notice>
-								) }
-							</>
-						) }
 						{ showOrderControl && (
 							<OrderControl
 								{ ...{ order, orderBy } }
@@ -193,6 +168,27 @@ export default function QueryInspectorControls( {
 							/>
 						) }
 					</PanelBody>
+				</InspectorControls>
+			) }
+			{ showColumnsControl && (
+				<InspectorControls __experimentalGroup="layout">
+					<RangeControl
+						__nextHasNoMarginBottom
+						label={ __( 'Columns' ) }
+						value={ displayLayout.columns }
+						onChange={ ( value ) =>
+							setDisplayLayout( { columns: value } )
+						}
+						min={ 2 }
+						max={ Math.max( 6, displayLayout.columns ) }
+					/>
+					{ displayLayout.columns > 6 && (
+						<Notice status="warning" isDismissible={ false }>
+							{ __(
+								'This column count exceeds the recommended amount and may cause visual breakage.'
+							) }
+						</Notice>
+					) }
 				</InspectorControls>
 			) }
 			{ ! inherit && showFiltersPanel && (

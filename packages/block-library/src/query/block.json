@@ -49,7 +49,17 @@
 	},
 	"supports": {
 		"align": [ "wide", "full" ],
+		"color": {
+			"background": true,
+			"text": true
+		},
 		"html": false,
+		"spacing": {
+			"blockGap": [ "horizontal", "vertical" ],
+			"margin": true,
+			"padding": true,
+			"__experimentalSkipSerialization": [ "blockGap" ]
+		},
 		"__experimentalLayout": true
 	},
 	"editorStyle": "wp-block-query-editor"
